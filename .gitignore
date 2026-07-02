@@ -1,9 +1,11 @@
+# ==========================
 # Python
+# ==========================
 __pycache__/
 *.py[cod]
 *$py.class
 
-# Virtual Environment
+# Virtual Environments
 .venv/
 venv/
 env/
@@ -23,18 +25,23 @@ Thumbs.db
 *.db
 *.sqlite3
 
-# Python cache
-.pytest_cache/
-.mypy_cache/
-
 # Build
 build/
 dist/
 *.egg-info/
 
-# Ollama models (ако по-късно добавим локални модели)
-models/
+# Cache
+.pytest_cache/
+.mypy_cache/
+.coverage
+htmlcov/
 
-# Temporary files
+# Temporary
 *.tmp
 *.bak
+
+# Models
+models/
+
+# Jupyter
+.ipynb_checkpoints/
