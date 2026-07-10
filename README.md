@@ -71,3 +71,34 @@ Implemented:
 - PDF reports
 - Computer vision module
 - Machine learning models for cost and quality prediction
+
+doc structure:
+Industrial-AI-Engineer/
+│
+├── docs/
+│   ├── 01_Introduction.md
+│   ├── 02_System_Architecture.md
+│   ├── 03_Digital_Twin_Platform.md
+│   ├── 04_AI_Architecture.md
+│   ├── 05_Agent_Architecture.md
+│   ├── 06_Database_Design.md
+│   ├── 07_Engineering_Engine.md
+│   ├── 08_GUI_Architecture.md
+│   ├── 09_Project_Roadmap.md
+│   │
+│   ├── diagrams/
+│   │   ├── architecture.drawio
+│   │   ├── class_diagram.drawio
+│   │   ├── use_case.drawio
+│   │   ├── sequence.drawio
+│   │   └── database.drawio
+│   │
+│   └── images/
+│       ├── architecture.png
+│       ├── gui_mockup.png
+│       └── logo.png
+│
+├── research/
+│   ├── references.md
+│   ├── related_work.md
+│   └── papers/
